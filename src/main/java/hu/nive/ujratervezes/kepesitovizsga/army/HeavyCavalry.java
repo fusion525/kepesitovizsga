@@ -21,7 +21,7 @@ public class HeavyCavalry extends MilitaryUnit{
 
     @Override
     public void sufferDamage(int damage) {
-        this.health = health - damage;
+        this.health = health - damage/2;
     }
 
     @Override
@@ -33,4 +33,5 @@ public class HeavyCavalry extends MilitaryUnit{
     public int getHealth() {
         return health;
     }
+
 }

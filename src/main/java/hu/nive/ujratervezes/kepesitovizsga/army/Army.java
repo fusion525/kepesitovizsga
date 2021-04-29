@@ -33,12 +33,12 @@ public class Army {
 
     public int getArmyDamage()
     {
-        int allDamage = 0;
+        int totalDamage = 0;
         for (MilitaryUnit unit : units)
         {
-            allDamage += unit.doDamage();
+            totalDamage += unit.doDamage();
         }
-        return allDamage;
+        return totalDamage;
     }
 
 }

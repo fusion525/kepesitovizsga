@@ -24,4 +24,5 @@ public class Archer extends MilitaryUnit{
     public int getHealth() {
         return health;
     }
+
 }

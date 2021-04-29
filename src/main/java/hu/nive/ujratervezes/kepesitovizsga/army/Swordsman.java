@@ -35,4 +35,5 @@ public class Swordsman extends MilitaryUnit{
     public int getHealth() {
         return health;
     }
+
 }
